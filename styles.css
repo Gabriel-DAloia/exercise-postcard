@@ -10,7 +10,8 @@ html {
 }
 
 p {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
+	margin-left: 15px;
 }
 
 body {
@@ -31,6 +32,7 @@ body {
 .postcard-header img {
 	width: 90px;
 	height: 90px;
+	margin-right: 15px;
 }
 
 div .postcard-header h1 {
@@ -38,6 +40,7 @@ div .postcard-header h1 {
 	margin: 0;
 	align-content: center;
 	padding: 0.5rem;
+	margin-left: 15px;
 }
 .postcard-body {
 	display: flex;
@@ -45,6 +48,7 @@ div .postcard-header h1 {
 div .body-left .m {
 	margin: 0;
 	padding: 0.5rem;
+	margin-left: 15px;
 }
 div .body-left p {
 	padding: 0.5rem;
@@ -52,17 +56,26 @@ div .body-left p {
 .body-left .body-right {
 	padding: 60% 40%;
 }
+
 input {
 	border: none;
 	border-color: grey;
 	border-bottom: inset;
+	margin-right: 15px;
 }
 
-.postcard-footer button {
+.boton {
 	width: auto;
 	height: auto;
 	color: black;
 	background-color: rgb(197, 197, 197);
+	border-color: orange;
+	text-decoration: none;
+	display: block;
+	border: 1px solid;
+}
+a.boton:active {
+	border-color: orange;
 }
 .postcard-footer {
 	text-align: center;
